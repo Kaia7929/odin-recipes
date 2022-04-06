@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        body {
+            font-family: helvetica, Arial, sans-serif;
+            font-size: 18px;
+        }
+        
+        .list-header {
+            font-size: 30px;
+        }
+        
+        ol {
+            font-size: 25px;
+        }
+        
+        ul > li {
+            font-size: 23px;
+        }
+
+        ol > p {
+            font-size: 19px;
+        }
+        
+        </style>
 <head>
     <meta charset="UTF-8">
-    <title>CakeRecipe</title>
+    <title>Cake Recipe</title>
 </head>
+
 <body>
     <h1>Cake</h1>
-    <img src="images/Cake.jpg" width="450">
     <h3>My favourate chocolate cake.</h2>
+    <img src="images/Cake.jpg" width="450" alt="Cake">
         <p> </p>
-        <p><strong>You will need:</strong></p>
-
+       
+        <p class="list-header"><strong>Ingredients</strong></p>   
         <ul>
             <li>Butter</li>
             <li>3 cups all-purpose flour</li>
@@ -25,7 +49,8 @@
             <li>1/2 cup vegetable oil</li>
             <li>2 teaspoons vanilla extract</li>
         </ul>
-        <p><strong>INSTRUCTIONS</strong></p>
+
+        <p class="list-header"><strong>Instructions</strong></p>    
         <ol>
             <li>Preheat oven to 350 degrees Fahrenheit. Butter three 9-inch cake rounds. Dust with flour and tap out the excess.</li>
             <p> </p>
@@ -41,6 +66,7 @@
             <p> </p>
             <li>Frost with your favorite frosting and enjoy!</li>
         </ol>
+
 </body>
 </html>
 
